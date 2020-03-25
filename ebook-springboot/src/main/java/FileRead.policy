@@ -1,0 +1,3 @@
+grant {
+    permission backend.Permission.FileReadPermission "C:/*", "read";
+};
