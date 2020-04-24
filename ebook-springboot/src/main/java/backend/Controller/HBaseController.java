@@ -3,7 +3,6 @@ package backend.Controller;
 import backend.util.HBaseUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,16 +19,19 @@ public class HBaseController {
 
     @RequestMapping(value = "/test1")
     @ResponseBody
-    public Map<String,Object> test1() {
+    public Map<String,Object> test1(String table) throws IOException {
         Map<String,Object> map = new HashMap<String,Object>();
+        if(!hBaseUtils.existsTable(table)) {
+            return map;
+        }
         try {
-            String str = hBaseUtils.scanAllRecord("sixmonth");//扫描表
+            String str = hBaseUtils.scanAllRecord(table);//扫描表
             System.out.println("获取到hbase的内容："+str);
             map.put("hbaseContent",str);
+            return map;
         } catch (IOException e) {
-            e.printStackTrace();
+            return null;
         }
-        return map;
     }
 
     @RequestMapping(value = "/test2")

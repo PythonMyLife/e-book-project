@@ -67,9 +67,7 @@ spring:
         max-idle: 0
     timeout: 300
 logging:
-  level:
-    ebook-springboot: debug
-  file: ./logs/ebook.log
+  config: src/main/resources/logback.xml
 
 hdfs:
   path: hdfs://hadoop:9000/
@@ -78,6 +76,6 @@ hdfs:
 hbase:
   conf:
     confMaps:
-      'hbase.zookeeper.quorum' : '127.0.0.1:2183'
+      quorum : 127.0.0.1:2183
 
 

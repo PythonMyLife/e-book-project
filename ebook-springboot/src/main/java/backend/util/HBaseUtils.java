@@ -9,6 +9,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Component;
 
@@ -20,13 +21,10 @@ import java.util.NavigableMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@DependsOn("springContextHolder")
 @Component
 public class HBaseUtils {
+    private String quorum = "127.0.0.1:2183";
     private Logger logger = LoggerFactory.getLogger(this.getClass());
-
-    //手动获取hbaseConfig配置类对象
-    private static HbaseConfig hbaseConfig = SpringContextHolder.getBean("hbaseConfig");
 
     private static Configuration conf = HBaseConfiguration.create();
     private static ExecutorService pool = Executors.newScheduledThreadPool(20);	//设置hbase连接池
@@ -37,11 +35,7 @@ public class HBaseUtils {
     public HBaseUtils(){
         if(connection == null){
             try {
-                //将hbase配置类中定义的配置加载到连接池中每个连接里
-                Map<String, String> confMap = hbaseConfig.getconfMaps();
-                for (Map.Entry<String,String> confEntry : confMap.entrySet()) {
-                    conf.set(confEntry.getKey(), confEntry.getValue());
-                }
+                conf.set("hbase.zookeeper.quorum", quorum);
                 connection = ConnectionFactory.createConnection(conf, pool);
                 admin = connection.getAdmin();
             } catch (IOException e) {
@@ -59,6 +53,11 @@ public class HBaseUtils {
     }
 
 
+    public boolean existsTable(String tableName) throws IOException {
+        TableName name = TableName.valueOf(tableName);
+        return admin.tableExists(name);
+    }
+
     /**
      * 创建表
      *
@@ -67,18 +66,17 @@ public class HBaseUtils {
      */
     public void createTable(String tableName, String[] columnFamily) throws IOException{
         TableName name = TableName.valueOf(tableName);
-        //如果存在则删除
+        //如果存在则清空
         if (admin.tableExists(name)) {
             admin.disableTable(name);
             admin.deleteTable(name);
-            logger.error("create htable error! this table {} already exists!", name);
-        } else {
-            HTableDescriptor desc = new HTableDescriptor(name);
-            for (String cf : columnFamily) {
-                desc.addFamily(new HColumnDescriptor(cf));
-            }
-            admin.createTable(desc);
+
         }
+        HTableDescriptor desc = new HTableDescriptor(name);
+        for (String cf : columnFamily) {
+            desc.addFamily(new HColumnDescriptor(cf));
+        }
+        admin.createTable(desc);
     }
 
     /**
