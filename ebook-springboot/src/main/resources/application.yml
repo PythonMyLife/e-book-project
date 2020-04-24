@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 4333
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -10,6 +10,10 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   data:
+    solr:
+      host: http://localhost:8983/solr/ebook-core
+      repositories:
+        enabled: true
     mongodb:
       uri: mongodb://localhost:27017/ebook
   jpa:
@@ -51,3 +55,29 @@ spring:
     listener:
       # 在侦听器容器中运行的线程数。
       concurrency: 5
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: root123
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 0
+    timeout: 300
+logging:
+  level:
+    ebook-springboot: debug
+  file: ./logs/ebook.log
+
+hdfs:
+  path: hdfs://hadoop:9000/
+  ip: 127.0.0.1
+
+hbase:
+  conf:
+    confMaps:
+      'hbase.zookeeper.quorum' : '127.0.0.1:2183'
+
+

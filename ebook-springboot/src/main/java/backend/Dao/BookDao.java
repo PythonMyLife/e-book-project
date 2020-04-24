@@ -1,6 +1,7 @@
 package backend.Dao;
 
 import backend.Entity.Book;
+import backend.Entity.BookSolr;
 
 import java.util.List;
 
@@ -27,4 +28,7 @@ public interface BookDao {
 
     //设置一本书的数量
     void setBookNum(Book book, Integer num);
+
+    //关键字查找
+    List<BookSolr> queryAll(String query);
 }

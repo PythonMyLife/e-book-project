@@ -3,11 +3,14 @@ package backend.Entity;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Objects;
 
 @Document(collection = "bookFeatures")
-public class BookMongoDB {
+public class BookMongoDB implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     @Id
     private String id;
     private String isbn;

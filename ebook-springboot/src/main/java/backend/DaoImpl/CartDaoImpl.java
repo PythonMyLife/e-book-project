@@ -36,12 +36,8 @@ public class CartDaoImpl implements CartDao {
     }
     @Override
     public Boolean deleteCart(Book book, User user){
-        try{
-            cartRepository.deleteAllByBookAndUser(book, user);
-            return true;
-        }catch (Exception e){
-            return false;
-        }
+        cartRepository.deleteAllByBookAndUser(book, user);
+        return true;
     }
 
     @Override

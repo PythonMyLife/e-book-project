@@ -12,6 +12,7 @@
             </div> <!-- end of menu -->
 
             <div id="templatemo_header"></div> <!-- end of header -->
+            <p>累计访问：{{this.num}}</p>
                 <el-table
                         :data="table.filter(data => !search || data.bookname.toLowerCase().includes(search.toLowerCase()))"
                         style="width: 100%">
@@ -63,6 +64,7 @@
                 username:'',
                 bookdetail:'',
                 dialogFormVisible: false,
+                num: 0
             }
         },
         mounted () {
@@ -80,6 +82,9 @@
                             this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                         });
                     }
+                    axios.get('http://localhost:8088/visit/count').then(response => {
+                        this.num = response.data;
+                    })
                 });
         },
         methods: {

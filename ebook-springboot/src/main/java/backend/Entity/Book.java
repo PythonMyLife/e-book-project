@@ -2,12 +2,14 @@ package backend.Entity;
 import com.fasterxml.jackson.annotation.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
 @Table(name = "books", schema = "ebook")
 @JsonIgnoreProperties(value = {"handler","hibernateLazyInitializer","fieldHandler"})
-public class Book {
+public class Book implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private String bookname;
     private String author;

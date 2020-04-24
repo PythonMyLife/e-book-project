@@ -5,6 +5,8 @@ import backend.Entity.Book;
 import backend.Service.RmiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,6 +20,7 @@ public class RmiServiceImpl implements RmiService{
     private BookDao bookDao;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<Map<String, Object>> getDetail(String book) {
         List<Map<String, Object>> result = new ArrayList<>();
         List<Book> books = bookDao.findAllByBooknameEquals(book);

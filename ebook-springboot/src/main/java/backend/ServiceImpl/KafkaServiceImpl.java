@@ -12,6 +12,8 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -30,6 +32,7 @@ public class KafkaServiceImpl implements KafkaService {
 
 
     @KafkaListener(groupId = "spring", topics = {"ebook-order"})
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void dealOrder(ConsumerRecord record) {
         String username = (String) record.value();
         System.out.println(username);

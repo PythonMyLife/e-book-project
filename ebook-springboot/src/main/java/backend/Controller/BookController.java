@@ -3,6 +3,7 @@ package backend.Controller;
 
 import backend.Entity.Book;
 import backend.Entity.BookMongoDB;
+import backend.Entity.BookSolr;
 import backend.Service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -34,6 +35,12 @@ public class BookController {
     @ResponseBody
     public String subpage(String isbn){
         return bookService.findByIsbn(isbn).getDetail();
+    }
+
+    @RequestMapping(value="/isbn", method = RequestMethod.GET)
+    @ResponseBody
+    public Book findByIsbn(String isbn){
+        return bookService.findByIsbn(isbn);
     }
 
     @RequestMapping(value="/deleteBook", method = RequestMethod.POST)
@@ -83,6 +90,12 @@ public class BookController {
     @ResponseBody
     public BookMongoDB bookMongo(String isbn){
         return bookService.bookMongoByIsbn(isbn);
+    }
+
+    @RequestMapping(value = "/query")
+    @ResponseBody
+    public List<BookSolr> queryAll(String key) {
+        return bookService.queryAll(key);
     }
 
 }

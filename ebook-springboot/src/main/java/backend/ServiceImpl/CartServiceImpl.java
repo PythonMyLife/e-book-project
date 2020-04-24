@@ -10,6 +10,8 @@ import backend.Service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -30,19 +32,17 @@ public class CartServiceImpl implements CartService {
         return cartDao.getAll();
     }
 
-    @Override
+
     public List<Cart> getAllUserCart(String username){
         List<Cart> cartList = cartDao.getUserCart(username);
-        for(Cart cart:cartList){
-            cart.getUser().setPassword(null);
-            cart.getUser().setEmail(null);
-            cart.getUser().setStatus(null);
-            cart.getUser().setIdentity(null);
+        for(Cart cart : cartList) {
+            cart.setUser(null);
         }
         return cartList;
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean saveCart(String username, String isbn, Integer num){
         Cart cart = new Cart();
         Book book = bookDao.findByIsbn(isbn);
@@ -56,6 +56,7 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean addCart(String username, String isbn){
         try{
             Cart cart = cartDao.getCartByUserAndIsbn(username, isbn);
@@ -74,15 +75,11 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean deleteCart(String username, String isbn){
-        try{
-            Book book = bookDao.findByIsbn(isbn);
-            User user = userDao.findByUsername(username);
-            cartDao.deleteCart(book, user);
-            return true;
-        }catch (Exception e){
-            return false;
-        }
-
+        Book book = bookDao.findByIsbn(isbn);
+        User user = userDao.findByUsername(username);
+        cartDao.deleteCart(book, user);
+        return true;
     }
 }

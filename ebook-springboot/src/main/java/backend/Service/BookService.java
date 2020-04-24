@@ -2,6 +2,7 @@ package backend.Service;
 
 import backend.Entity.Book;
 import backend.Entity.BookMongoDB;
+import backend.Entity.BookSolr;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
@@ -33,4 +34,6 @@ public interface BookService {
 
     //添加书
     Boolean addBook(MultipartFile cover, String isbn, String bookname, String author, Integer num, String detail, Double price);
+
+    List<BookSolr> queryAll(String query);
 }

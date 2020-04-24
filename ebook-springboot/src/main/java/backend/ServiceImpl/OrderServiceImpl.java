@@ -11,6 +11,8 @@ import backend.Service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -30,6 +32,7 @@ public class OrderServiceImpl implements OrderService {
     KafkaTemplate kafkaTemplate;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<Order> findAllOrder(){
         List<Order> orderList = orderDao.findAll();
         for(Order order : orderList){
@@ -40,6 +43,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<Order> findAllOrderByUsernameAndStatus(String username){
         List<Order> orderList = orderDao.findAllByUserAndStatus(username, 0);
         for(Order order : orderList){
@@ -50,6 +54,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public Boolean submitOrder(String username){
         try{
             kafkaTemplate.send("ebook-order", username);

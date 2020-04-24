@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -17,6 +19,7 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public User addUser(User user) {
         user.setStatus(0);
         user.setIdentity(0);
@@ -26,16 +29,19 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public User findUserByUsername(String username) {
         return userDao.findOne(username);
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public boolean deleteUser(String username) {
         return userDao.deleteUser(username);
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public User updateUser(Map<String, String> data) {
         String username = data.get("username");
         User user = userDao.findOne(username);
@@ -53,12 +59,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public boolean nameIsValid(String username) {
         if(userDao.findByUsername(username)== null) return true;
         return false;
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public boolean checkPassword(User user) {
         try{
             User userFind = userDao.findOne(user.getUsername());
@@ -73,6 +81,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public Integer checkStatusAndIdentity(String username){
         User userFind = userDao.findOne(username);
         if(userFind.getStatus().equals(1)){
@@ -85,11 +94,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<User> findAll(){
         return userDao.findAll();
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public List<User> findAllUser(){
         List<User> userList = userDao.findAll();
         ArrayList<User> users = new ArrayList<>();
@@ -102,6 +113,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public boolean changeStatus(String username){
         try{
             User user = userDao.findByUsername(username);
@@ -114,6 +126,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public boolean regist(String username, String password, String email){
         User user = new User();
         user.setUsername(username);
