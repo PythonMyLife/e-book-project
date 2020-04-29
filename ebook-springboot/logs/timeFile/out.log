@@ -1,91 +1,103 @@
-2020-04-24 18:12:22.455 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
-2020-04-24 18:12:22.625 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-0ONHHBH
-2020-04-24 18:12:22.627 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=11.0.4
-2020-04-24 18:12:22.629 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=JetBrains s.r.o
-2020-04-24 18:12:22.631 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=D:\intellij\IntelliJ IDEA 2018.3.5\jbr
-2020-04-24 18:12:22.633 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=D:\school\3x\SE343\project\ebook-springboot\target\classes;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.5.RELEASE\spring-boot-starter-data-jpa-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.5.RELEASE\spring-boot-starter-aop-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.5.RELEASE\spring-boot-starter-jdbc-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\14254\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\14254\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\14254\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\14254\.m2\repository\org\hibernate\hibernate-core\5.3.10.Final\hibernate-core-5.3.10.Final.jar;C:\Users\14254\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\14254\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\14254\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\14254\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\14254\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\14254\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\14254\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\14254\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-jpa\2.1.8.RELEASE\spring-data-jpa-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-commons\2.1.8.RELEASE\spring-data-commons-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-orm\5.1.7.RELEASE\spring-orm-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-aspects\5.1.7.RELEASE\spring-aspects-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpclient\4.5.8\httpclient-4.5.8.jar;C:\Users\14254\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\2.1.5.RELEASE\spring-boot-starter-data-rest-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-rest-webmvc\3.1.8.RELEASE\spring-data-rest-webmvc-3.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-rest-core\3.1.8.RELEASE\spring-data-rest-core-3.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\hateoas\spring-hateoas\0.25.1.RELEASE\spring-hateoas-0.25.1.RELEASE.jar;C:\Users\14254\.m2\repository\org\atteo\evo-inflector\1.2.2\evo-inflector-1.2.2.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.4.RELEASE\spring-boot-starter-data-mongodb-2.0.4.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.5.RELEASE\spring-boot-starter-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot\2.1.5.RELEASE\spring-boot-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.5.RELEASE\spring-boot-autoconfigure-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.5.RELEASE\spring-boot-starter-logging-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\14254\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\14254\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\14254\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\14254\.m2\repository\org\slf4j\jul-to-slf4j\1.7.26\jul-to-slf4j-1.7.26.jar;C:\Users\14254\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\14254\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\14254\.m2\repository\org\mongodb\mongodb-driver\3.8.2\mongodb-driver-3.8.2.jar;C:\Users\14254\.m2\repository\org\mongodb\bson\3.8.2\bson-3.8.2.jar;C:\Users\14254\.m2\repository\org\mongodb\mongodb-driver-core\3.8.2\mongodb-driver-core-3.8.2.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-mongodb\2.1.8.RELEASE\spring-data-mongodb-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.5.RELEASE\spring-boot-starter-web-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.5.RELEASE\spring-boot-starter-json-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.8\jackson-module-parameter-names-2.9.8.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.5.RELEASE\spring-boot-starter-tomcat-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.19\tomcat-embed-core-9.0.19.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.19\tomcat-embed-el-9.0.19.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.19\tomcat-embed-websocket-9.0.19.jar;C:\Users\14254\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.16.Final\hibernate-validator-6.0.16.Final.jar;C:\Users\14254\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\14254\.m2\repository\org\springframework\spring-web\5.1.7.RELEASE\spring-web-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-webmvc\5.1.7.RELEASE\spring-webmvc-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\14254\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar;C:\Users\14254\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\14254\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar;C:\Users\14254\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\14254\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\14254\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\14254\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar;C:\Users\14254\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\14254\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\14254\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\14254\.m2\repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\kafka\spring-kafka\2.2.5.RELEASE\spring-kafka-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-messaging\5.1.7.RELEASE\spring-messaging-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-tx\5.1.7.RELEASE\spring-tx-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\retry\spring-retry\1.2.4.RELEASE\spring-retry-1.2.4.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\kafka\kafka-clients\2.0.1\kafka-clients-2.0.1.jar;C:\Users\14254\.m2\repository\org\lz4\lz4-java\1.4.1\lz4-java-1.4.1.jar;C:\Users\14254\.m2\repository\org\xerial\snappy\snappy-java\1.1.7.1\snappy-java-1.1.7.1.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-websocket\2.1.5.RELEASE\spring-boot-starter-websocket-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-websocket\5.1.7.RELEASE\spring-websocket-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-redis\2.2.5.RELEASE\spring-boot-starter-data-redis-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-redis\2.1.8.RELEASE\spring-data-redis-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-keyvalue\2.1.8.RELEASE\spring-data-keyvalue-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-oxm\5.1.7.RELEASE\spring-oxm-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\io\lettuce\lettuce-core\5.1.6.RELEASE\lettuce-core-5.1.6.RELEASE.jar;C:\Users\14254\.m2\repository\io\netty\netty-common\4.1.36.Final\netty-common-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-handler\4.1.36.Final\netty-handler-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-buffer\4.1.36.Final\netty-buffer-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-codec\4.1.36.Final\netty-codec-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-transport\4.1.36.Final\netty-transport-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-resolver\4.1.36.Final\netty-resolver-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\projectreactor\reactor-core\3.2.9.RELEASE\reactor-core-3.2.9.RELEASE.jar;C:\Users\14254\.m2\repository\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\14254\.m2\repository\com\alibaba\fastjson\1.2.66\fastjson-1.2.66.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-solr\2.2.5.RELEASE\spring-boot-starter-data-solr-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\solr\solr-solrj\7.7.1\solr-solrj-7.7.1.jar;C:\Users\14254\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\14254\.m2\repository\org\noggit\noggit\0.8\noggit-0.8.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-solr\4.0.8.RELEASE\spring-data-solr-4.0.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpmime\4.5.8\httpmime-4.5.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-common\3.1.3\hadoop-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-annotations\3.1.3\hadoop-annotations-3.1.3.jar;C:\Users\14254\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\14254\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\14254\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\14254\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\14254\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-server\9.4.18.v20190429\jetty-server-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-http\9.4.18.v20190429\jetty-http-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-io\9.4.18.v20190429\jetty-io-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-util\9.4.18.v20190429\jetty-util-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.18.v20190429\jetty-servlet-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-security\9.4.18.v20190429\jetty-security-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.18.v20190429\jetty-webapp-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.18.v20190429\jetty-xml-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-core\1.19\jersey-core-1.19.jar;C:\Users\14254\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-json\1.19\jersey-json-1.19.jar;C:\Users\14254\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\14254\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.2\jackson-core-asl-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.2\jackson-mapper-asl-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.2\jackson-jaxrs-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.2\jackson-xc-1.9.2.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-server\1.19\jersey-server-1.19.jar;C:\Users\14254\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\14254\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\14254\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\14254\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-configuration2\2.1.1\commons-configuration2-2.1.1.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\14254\.m2\repository\org\apache\avro\avro\1.7.7\avro-1.7.7.jar;C:\Users\14254\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\14254\.m2\repository\com\google\re2j\re2j\1.1\re2j-1.1.jar;C:\Users\14254\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-auth\3.1.3\hadoop-auth-3.1.3.jar;C:\Users\14254\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.1\nimbus-jose-jwt-4.41.1.jar;C:\Users\14254\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-framework\2.13.0\curator-framework-2.13.0.jar;C:\Users\14254\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-client\2.13.0\curator-client-2.13.0.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-recipes\2.13.0\curator-recipes-2.13.0.jar;C:\Users\14254\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\14254\.m2\repository\org\apache\htrace\htrace-core4\4.1.0-incubating\htrace-core4-4.1.0-incubating.jar;C:\Users\14254\.m2\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;C:\Users\14254\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-simplekdc\1.0.1\kerb-simplekdc-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-client\1.0.1\kerb-client-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-config\1.0.1\kerby-config-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-core\1.0.1\kerb-core-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-pkix\1.0.1\kerby-pkix-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-asn1\1.0.1\kerby-asn1-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-util\1.0.1\kerby-util-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-common\1.0.1\kerb-common-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-crypto\1.0.1\kerb-crypto-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-util\1.0.1\kerb-util-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\token-provider\1.0.1\token-provider-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-admin\1.0.1\kerb-admin-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-server\1.0.1\kerb-server-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-identity\1.0.1\kerb-identity-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-xdr\1.0.1\kerby-xdr-1.0.1.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\14254\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\14254\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\3.1.3\hadoop-mapreduce-client-core-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-client\3.1.3\hadoop-yarn-client-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-api\3.1.3\hadoop-yarn-api-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-common\3.1.3\hadoop-yarn-common-3.1.3.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-client\1.19\jersey-client-1.19.jar;C:\Users\14254\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\14254\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\14254\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\14254\.m2\repository\com\sun\jersey\contribs\jersey-guice\1.19\jersey-guice-1.19.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.8\jackson-module-jaxb-annotations-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.9.8\jackson-jaxrs-json-provider-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.9.8\jackson-jaxrs-base-2.9.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-hdfs-client\3.1.3\hadoop-hdfs-client-3.1.3.jar;C:\Users\14254\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar;C:\Users\14254\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\14254\.m2\repository\com\google\inject\extensions\guice-servlet\4.0\guice-servlet-4.0.jar;C:\Users\14254\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\3.1.3\hadoop-mapreduce-client-shuffle-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\3.1.3\hadoop-yarn-server-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-registry\3.1.3\hadoop-yarn-registry-3.1.3.jar;C:\Users\14254\.m2\repository\dnsjava\dnsjava\2.1.7\dnsjava-2.1.7.jar;C:\Users\14254\.m2\repository\org\apache\geronimo\specs\geronimo-jcache_1.0_spec\1.0-alpha-1\geronimo-jcache_1.0_spec-1.0-alpha-1.jar;C:\Users\14254\.m2\repository\org\ehcache\ehcache\3.6.3\ehcache-3.6.3.jar;C:\Users\14254\.m2\repository\com\zaxxer\HikariCP-java7\2.4.12\HikariCP-java7-2.4.12.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-server-nodemanager\3.1.3\hadoop-yarn-server-nodemanager-3.1.3.jar;C:\Users\14254\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\3.1.3\hadoop-mapreduce-client-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\3.1.3\hadoop-mapreduce-client-jobclient-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-hdfs\3.1.3\hadoop-hdfs-3.1.3.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.18.v20190429\jetty-util-ajax-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;C:\Users\14254\.m2\repository\io\netty\netty-all\4.1.36.Final\netty-all-4.1.36.Final.jar;C:\Users\14254\.m2\repository\com\janeluo\ikanalyzer\2012_u6\ikanalyzer-2012_u6.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-core\4.7.2\lucene-core-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-queryparser\4.7.2\lucene-queryparser-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-queries\4.7.2\lucene-queries-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-sandbox\4.7.2\lucene-sandbox-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.7.2\lucene-analyzers-common-4.7.2.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop\2.5.0.RELEASE\spring-data-hadoop-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-core\2.5.0.RELEASE\spring-data-hadoop-core-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-hive\2.5.0.RELEASE\spring-data-hadoop-hive-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\batch\spring-batch-core\4.1.2.RELEASE\spring-batch-core-4.1.2.RELEASE.jar;C:\Users\14254\.m2\repository\javax\batch\javax.batch-api\1.0\javax.batch-api-1.0.jar;C:\Users\14254\.m2\repository\org\springframework\batch\spring-batch-infrastructure\4.1.2.RELEASE\spring-batch-infrastructure-4.1.2.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-context-support\5.1.7.RELEASE\spring-context-support-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-jdbc\5.1.7.RELEASE\spring-jdbc-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-pig\2.5.0.RELEASE\spring-data-hadoop-pig-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-batch\2.5.0.RELEASE\spring-data-hadoop-batch-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-hbase\2.5.0.RELEASE\spring-data-hadoop-hbase-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-streaming\2.7.3\hadoop-streaming-2.7.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-distcp\2.7.3\hadoop-distcp-2.7.3.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-client\2.2.2\hbase-client-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.2.1\hbase-shaded-protobuf-2.2.1.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-common\2.2.2\hbase-common-2.2.2.jar;C:\Users\14254\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-hadoop-compat\2.2.2\hbase-hadoop-compat-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-metrics-api\2.2.2\hbase-metrics-api-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\2.2.2\hbase-hadoop2-compat-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-metrics\2.2.2\hbase-metrics-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.2.2\hbase-protocol-shaded-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-protocol\2.2.2\hbase-protocol-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.2.1\hbase-shaded-miscellaneous-2.2.1.jar;C:\Users\14254\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.2.1\hbase-shaded-netty-2.2.1.jar;C:\Users\14254\.m2\repository\org\jruby\jcodings\jcodings\1.0.18\jcodings-1.0.18.jar;C:\Users\14254\.m2\repository\org\jruby\joni\joni\2.1.11\joni-2.1.11.jar;C:\Users\14254\.m2\repository\io\dropwizard\metrics\metrics-core\4.0.5\metrics-core-4.0.5.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\14254\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-configuration-processor\2.1.5.RELEASE\spring-boot-configuration-processor-2.1.5.RELEASE.jar
-2020-04-24 18:12:22.637 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=D:\intellij\IntelliJ IDEA 2018.3.5\jbr\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\xftp\;C:\Python37\Scripts;E:\xshell\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Python27\Lib\site-packages\django;C:\windows\System32\OpenSSH\;E:\mysql-8.0.11-winx64\bin;D:\tesseract\Tesseract-OCR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;D:\maven\apache-maven-3.6.0\bin;D:\codeblocks\MinGW\bin;D:\codeblocks\MinGW\bin\gdb32.exe;"D:\java\tomcat\apache-tomcat-9.0.17\lib;D:\java\tomcat\apache-tomcat-9.0.17\bin";D:\mongodb\bin;D:\flutter\bin;D:\appData\tools;D:\appData\platform-tools;D:\gradle\gradle-5.5\bin;C:\Python37;C:\Python37\Lib;D:\Git\cmd;C:\Go\bin;D:\software\jmeter\apache-jmeter-5.2.1\bin;D:\software\zookeeper\apache-zookeeper-3.5.7-bin\bin;D:\software\hadoop\hadoop-3.1.3\hadoop-3.1.3\bin;D:\software\hadoop\hadoop-3.1.3\hadoop-3.1.3\sbin;C:\Users\14254\AppData\Local\Microsoft\WindowsApps;C:\Python27\Lib\site-packages\django;C:\Python27;C:\Python27\Scripts\pip;C:\Python27\Lib\site-packages\Django-1.11.13-py2.7.egg\django\db\backends\mysql;E:\mysql-8.0.11-winx64\bin;D:\Git;D:\tesseract\Tesseract-OCR;C:\Users\14254\AppData\Roaming\npm;D:\intellij\IntelliJ IDEA 2018.3.5\bin;;D:\software\java\Java\jdk1.8.0_251\bin;D:\software\java\Java\jdk1.8.0_251\jre\bin;D:\vscode\Microsoft VS Code\bin;D:\codeblocks\MinGW\bin;C:\Python37;C:\Python37\Lib;C:\Python37\Scripts;;D:\software\pycharm\PyCharm 2019.2.5\bin;;D:\software\docker toolbox\Docker Toolbox;C:\Users\14254\go\bin;.
-2020-04-24 18:12:22.639 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\14254\AppData\Local\Temp\
-2020-04-24 18:12:22.642 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-2020-04-24 18:12:22.644 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-2020-04-24 18:12:22.646 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
-2020-04-24 18:12:22.648 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-2020-04-24 18:12:22.650 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=14254
-2020-04-24 18:12:22.653 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\14254
-2020-04-24 18:12:22.655 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=D:\school\3x\SE343\project\ebook-springboot
-2020-04-24 18:12:22.661 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2183 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$149/0x0000000100271840@8008725
-2020-04-24 18:12:22.666 [main] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
-2020-04-24 18:12:22.671 [main] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to kubernetes.docker.internal/127.0.0.1:2183, initiating session
-2020-04-24 18:12:22.674 [main] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2183, sessionid = 0x171ab0aef96000d, negotiated timeout = 40000
-2020-04-24 18:12:22.677 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log0
-2020-04-24 18:12:22.679 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log0, procId: 106 completed
-2020-04-24 18:12:22.682 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log0, procId: 109 completed
-2020-04-24 18:12:22.686 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log0, procId: 110 completed
-2020-04-24 18:12:22.690 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log1
-2020-04-24 18:12:22.693 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log1, procId: 113 completed
-2020-04-24 18:12:22.697 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log1, procId: 116 completed
-2020-04-24 18:12:22.704 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log1, procId: 117 completed
-2020-04-24 18:12:22.707 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log2
-2020-04-24 18:12:22.709 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log2, procId: 120 completed
-2020-04-24 18:12:22.712 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log2, procId: 123 completed
-2020-04-24 18:12:22.714 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log2, procId: 124 completed
-2020-04-24 18:12:51.617 [main] INFO  backend.EbookApplication - Starting EbookApplication on DESKTOP-0ONHHBH with PID 2984 (D:\school\3x\SE343\project\ebook-springboot\target\classes started by 14254 in D:\school\3x\SE343\project\ebook-springboot)
-2020-04-24 18:12:51.623 [main] INFO  backend.EbookApplication - No active profile set, falling back to default profiles: default
-2020-04-24 18:12:52.442 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:12:52.444 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:12:52.509 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:12:52.558 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104ms. Found 5 repository interfaces.
-2020-04-24 18:12:52.577 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:12:52.578 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:12:52.590 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:12:52.593 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:12:52.595 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:12:52.598 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:12:52.600 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:12:52.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 1 repository interfaces.
-2020-04-24 18:12:52.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:12:52.619 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:12:52.635 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:12:52.637 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:12:52.639 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:12:52.641 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:12:52.643 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:12:52.646 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:12:52.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
-2020-04-24 18:12:52.739 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:12:52.741 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:12:52.759 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:12:52.764 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:12:52.766 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:12:52.768 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:12:52.770 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:12:52.772 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:12:52.774 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
-2020-04-24 18:12:53.139 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$86c57178] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:12:53.198 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3135ff5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:12:53.250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [backend.config.RedisConfig$$EnhancerBySpringCGLIB$$329c1325] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:12:53.305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$3293ad27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:12:53.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4333 (http)
-2020-04-24 18:12:53.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-04-24 18:12:53.939 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-2020-04-24 18:12:54.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2020-04-24 18:12:54.472 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2817 ms
-2020-04-24 18:12:55.303 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2020-04-24 18:12:55.928 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2020-04-24 18:12:56.058 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+2020-04-29 19:12:11.812 [main] INFO  backend.EbookApplication - Starting EbookApplication on DESKTOP-0ONHHBH with PID 10396 (D:\school\3x\SE343\project\ebook-springboot\target\classes started by 14254 in D:\school\3x\SE343\project\ebook-springboot)
+2020-04-29 19:12:11.941 [main] INFO  backend.EbookApplication - No active profile set, falling back to default profiles: default
+2020-04-29 19:12:13.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 19:12:13.459 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 19:12:13.548 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
+2020-04-29 19:12:13.592 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface backend.Repository.PersonRepository.
+2020-04-29 19:12:13.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 173ms. Found 5 repository interfaces.
+2020-04-29 19:12:13.699 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 19:12:13.709 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 19:12:13.746 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
+2020-04-29 19:12:13.760 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
+2020-04-29 19:12:13.777 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
+2020-04-29 19:12:13.795 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
+2020-04-29 19:12:13.803 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.PersonRepository.
+2020-04-29 19:12:13.809 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
+2020-04-29 19:12:13.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 1 repository interfaces.
+2020-04-29 19:12:13.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 19:12:13.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 19:12:13.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
+2020-04-29 19:12:13.880 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
+2020-04-29 19:12:13.884 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
+2020-04-29 19:12:13.888 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
+2020-04-29 19:12:13.892 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
+2020-04-29 19:12:13.898 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Neo4j - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
+2020-04-29 19:12:13.914 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 1 repository interfaces.
+2020-04-29 19:12:13.939 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 19:12:13.947 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 19:12:13.992 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
+2020-04-29 19:12:14.003 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
+2020-04-29 19:12:14.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
+2020-04-29 19:12:14.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
+2020-04-29 19:12:14.024 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
+2020-04-29 19:12:14.031 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.PersonRepository.
+2020-04-29 19:12:14.036 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
+2020-04-29 19:12:14.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 0 repository interfaces.
+2020-04-29 19:12:14.126 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 19:12:14.131 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-29 19:12:14.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
+2020-04-29 19:12:14.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
+2020-04-29 19:12:14.182 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
+2020-04-29 19:12:14.187 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
+2020-04-29 19:12:14.195 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
+2020-04-29 19:12:14.201 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.PersonRepository.
+2020-04-29 19:12:14.210 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
+2020-04-29 19:12:14.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2020-04-29 19:12:14.895 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$b58bcff4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 19:12:15.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1d9be71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 19:12:15.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [backend.config.RedisConfig$$EnhancerBySpringCGLIB$$616271a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 19:12:15.159 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$615a0ba3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 19:12:16.347 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4333 (http)
+2020-04-29 19:12:16.431 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 19:12:16.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-29 19:12:17.049 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-29 19:12:17.059 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5058 ms
+2020-04-29 19:12:17.891 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-29 19:12:18.484 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-29 19:12:18.608 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-04-24 18:12:56.178 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
-2020-04-24 18:12:56.191 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2020-04-24 18:12:56.416 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-04-24 18:12:56.647 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2020-04-24 18:12:57.665 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-04-24 18:13:01.855 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2020-04-24 18:13:01.927 [cluster-ClusterId{value='5ea2bbad90951b0ba8032c65', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
-2020-04-24 18:13:01.937 [cluster-ClusterId{value='5ea2bbad90951b0ba8032c65', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3085300}
-2020-04-24 18:13:05.501 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-24 18:13:05.549 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-04-24 18:13:06.367 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:18.752 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-04-29 19:12:18.761 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-29 19:12:18.939 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-29 19:12:19.188 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-29 19:12:20.159 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-29 19:12:24.288 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-29 19:12:24.359 [cluster-ClusterId{value='5ea96118ecae79289cae32da', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2020-04-29 19:12:24.370 [cluster-ClusterId{value='5ea96118ecae79289cae32da', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3383500}
+2020-04-29 19:12:26.296 [main] INFO  org.neo4j.ogm.metadata.DomainInfo - Starting Post-processing phase
+2020-04-29 19:12:26.300 [main] INFO  org.neo4j.ogm.metadata.DomainInfo - Building annotation class map
+2020-04-29 19:12:26.303 [main] INFO  org.neo4j.ogm.metadata.DomainInfo - Building interface class map for 92 classes
+2020-04-29 19:12:26.326 [main] INFO  org.neo4j.ogm.metadata.DomainInfo - Post-processing complete
+2020-04-29 19:12:26.394 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class javax.security.auth.Subject so treating as simple type for SD Commons
+2020-04-29 19:12:26.447 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class java.text.SimpleDateFormat so treating as simple type for SD Commons
+2020-04-29 19:12:26.466 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class org.springframework.data.redis.core.RedisTemplate so treating as simple type for SD Commons
+2020-04-29 19:12:26.522 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.errorEnabled
+2020-04-29 19:12:26.530 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.name
+2020-04-29 19:12:26.535 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.infoEnabled
+2020-04-29 19:12:26.540 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.debugEnabled
+2020-04-29 19:12:26.546 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.traceEnabled
+2020-04-29 19:12:26.551 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: org.slf4j.Logger.warnEnabled
+2020-04-29 19:12:26.559 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class ch.qos.logback.core.spi.FilterAttachableImpl so treating as simple type for SD Commons
+2020-04-29 19:12:26.574 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.statusManager
+2020-04-29 19:12:26.580 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.copyOfPropertyMap
+2020-04-29 19:12:26.587 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.executorService
+2020-04-29 19:12:26.596 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.name
+2020-04-29 19:12:26.607 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.configurationLock
+2020-04-29 19:12:26.613 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.birthTime
+2020-04-29 19:12:26.618 [main] WARN  o.s.data.neo4j.mapping.Neo4jPersistentProperty - Owning ClassInfo is null for property: ch.qos.logback.core.Context.scheduledExecutorService
+2020-04-29 19:12:26.644 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class java.util.concurrent.ConcurrentHashMap so treating as simple type for SD Commons
+2020-04-29 19:12:26.649 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class java.util.Vector so treating as simple type for SD Commons
+2020-04-29 19:12:26.653 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class java.security.ProtectionDomain so treating as simple type for SD Commons
+2020-04-29 19:12:26.670 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class org.springframework.kafka.core.KafkaTemplate so treating as simple type for SD Commons
+2020-04-29 19:12:26.743 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class org.apache.hadoop.io.Text so treating as simple type for SD Commons
+2020-04-29 19:12:26.801 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class org.apache.solr.client.solrj.SolrClient so treating as simple type for SD Commons
+2020-04-29 19:12:26.839 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - No class information found in OGM meta-data for class org.apache.hadoop.io.IntWritable so treating as simple type for SD Commons
+2020-04-29 19:12:26.850 [main] INFO  o.s.data.neo4j.mapping.Neo4jMappingContext - Neo4jMappingContext initialisation completed
+2020-04-29 19:12:30.345 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 19:12:30.426 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-29 19:12:30.440 [main] WARN  o.s.b.a.d.n.Neo4jDataAutoConfiguration$Neo4jWebConfiguration$Neo4jWebMvcConfiguration - spring.data.neo4j.open-in-view is enabled by default.Therefore, database queries may be performed during view rendering. Explicitly configure spring.data.neo4j.open-in-view to disable this warning
+2020-04-29 19:12:31.493 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -152,10 +164,10 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.434 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.436 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.602 [main] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:06.622 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:31.536 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.539 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.661 [main] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:31.673 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -222,10 +234,10 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.636 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.639 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.645 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:13:06.654 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:31.683 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.686 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.692 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-04-29 19:12:31.701 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -292,11 +304,11 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.665 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.668 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.673 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:13:06.677 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:06.678 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:31.713 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.717 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.728 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-04-29 19:12:31.733 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:31.739 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -363,17 +375,19 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.681 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:13:06.691 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:06.696 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:06.700 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
-2020-04-24 18:13:06.700 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.706 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:06.713 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.715 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:13:06.718 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:13:06.724 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:06.732 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:31.744 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
+2020-04-29 19:12:31.756 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:31.762 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:31.785 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
+2020-04-29 19:12:31.797 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:31.803 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:31.808 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.810 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:31.819 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] (Re-)joining group
+2020-04-29 19:12:31.824 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.827 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
+2020-04-29 19:12:31.832 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-04-29 19:12:31.839 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -440,14 +454,21 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.738 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:06.742 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] (Re-)joining group
-2020-04-24 18:13:06.756 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.761 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.764 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:13:06.772 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Successfully joined group with generation 4
-2020-04-24 18:13:06.772 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 4
-2020-04-24 18:13:06.774 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2020-04-29 19:12:31.850 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:31.860 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
+2020-04-29 19:12:31.863 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 19
+2020-04-29 19:12:31.863 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Successfully joined group with generation 19
+2020-04-29 19:12:31.868 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Setting newly assigned partitions []
+2020-04-29 19:12:31.871 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.872 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
+2020-04-29 19:12:31.875 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:31.880 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.882 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
+2020-04-29 19:12:31.883 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
+2020-04-29 19:12:31.889 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-04-29 19:12:31.899 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:31.913 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] (Re-)joining group
+2020-04-29 19:12:31.938 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	auto.commit.interval.ms = 1000
 	auto.offset.reset = latest
 	bootstrap.servers = [127.0.0.1:9092]
@@ -514,681 +535,59 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2020-04-24 18:13:06.778 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:13:06.782 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:06.785 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:06.793 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
-2020-04-24 18:13:06.795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:13:06.796 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:13:06.798 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:13:06.800 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:13:06.803 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:06.804 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:13:06.807 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:06.811 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:06.814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
-2020-04-24 18:13:06.816 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:13:06.822 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:06.825 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] (Re-)joining group
-2020-04-24 18:13:06.916 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] (Re-)joining group
-2020-04-24 18:13:06.977 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:13:07.076 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:13:07.084 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:07.088 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:07.091 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] (Re-)joining group
-2020-04-24 18:13:07.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4333 (http) with context path ''
-2020-04-24 18:13:07.148 [main] INFO  backend.EbookApplication - Started EbookApplication in 44.346 seconds (JVM running for 107.382)
-2020-04-24 18:13:09.780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Attempt to heartbeat failed since group is rebalancing
-2020-04-24 18:13:09.783 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:13:09.785 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:13:09.788 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] (Re-)joining group
-2020-04-24 18:13:09.791 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Attempt to heartbeat failed since group is rebalancing
-2020-04-24 18:13:09.796 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions [ebook-order-0]
-2020-04-24 18:13:09.799 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: [ebook-order-0]
-2020-04-24 18:13:09.801 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
-2020-04-24 18:13:09.812 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 5
-2020-04-24 18:13:09.812 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Successfully joined group with generation 5
-2020-04-24 18:13:09.813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Successfully joined group with generation 5
-2020-04-24 18:13:09.813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Successfully joined group with generation 5
-2020-04-24 18:13:09.815 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Successfully joined group with generation 5
-2020-04-24 18:13:09.817 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
-2020-04-24 18:13:09.819 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:13:09.822 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:13:09.825 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:13:09.827 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:13:09.830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:13:09.834 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:13:09.836 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:13:09.850 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
-2020-04-24 18:13:09.859 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:13:30.172 [http-nio-4333-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-24 18:13:30.175 [http-nio-4333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-04-24 18:13:30.218 [http-nio-4333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 37 ms
-2020-04-24 18:16:18.555 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
-2020-04-24 18:16:18.665 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=DESKTOP-0ONHHBH
-2020-04-24 18:16:18.667 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=11.0.4
-2020-04-24 18:16:18.669 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=JetBrains s.r.o
-2020-04-24 18:16:18.671 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=D:\intellij\IntelliJ IDEA 2018.3.5\jbr
-2020-04-24 18:16:18.673 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=D:\school\3x\SE343\project\ebook-springboot\target\classes;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.5.RELEASE\spring-boot-starter-data-jpa-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.5.RELEASE\spring-boot-starter-aop-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.5.RELEASE\spring-boot-starter-jdbc-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\14254\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\14254\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\14254\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\14254\.m2\repository\org\hibernate\hibernate-core\5.3.10.Final\hibernate-core-5.3.10.Final.jar;C:\Users\14254\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\14254\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\14254\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\14254\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\14254\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\14254\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\14254\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\14254\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-jpa\2.1.8.RELEASE\spring-data-jpa-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-commons\2.1.8.RELEASE\spring-data-commons-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-orm\5.1.7.RELEASE\spring-orm-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-aspects\5.1.7.RELEASE\spring-aspects-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpclient\4.5.8\httpclient-4.5.8.jar;C:\Users\14254\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\2.1.5.RELEASE\spring-boot-starter-data-rest-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-rest-webmvc\3.1.8.RELEASE\spring-data-rest-webmvc-3.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-rest-core\3.1.8.RELEASE\spring-data-rest-core-3.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\hateoas\spring-hateoas\0.25.1.RELEASE\spring-hateoas-0.25.1.RELEASE.jar;C:\Users\14254\.m2\repository\org\atteo\evo-inflector\1.2.2\evo-inflector-1.2.2.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.4.RELEASE\spring-boot-starter-data-mongodb-2.0.4.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.5.RELEASE\spring-boot-starter-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot\2.1.5.RELEASE\spring-boot-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.5.RELEASE\spring-boot-autoconfigure-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.5.RELEASE\spring-boot-starter-logging-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\14254\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\14254\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\14254\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\14254\.m2\repository\org\slf4j\jul-to-slf4j\1.7.26\jul-to-slf4j-1.7.26.jar;C:\Users\14254\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\14254\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\14254\.m2\repository\org\mongodb\mongodb-driver\3.8.2\mongodb-driver-3.8.2.jar;C:\Users\14254\.m2\repository\org\mongodb\bson\3.8.2\bson-3.8.2.jar;C:\Users\14254\.m2\repository\org\mongodb\mongodb-driver-core\3.8.2\mongodb-driver-core-3.8.2.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-mongodb\2.1.8.RELEASE\spring-data-mongodb-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.5.RELEASE\spring-boot-starter-web-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.5.RELEASE\spring-boot-starter-json-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.8\jackson-module-parameter-names-2.9.8.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.5.RELEASE\spring-boot-starter-tomcat-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.19\tomcat-embed-core-9.0.19.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.19\tomcat-embed-el-9.0.19.jar;C:\Users\14254\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.19\tomcat-embed-websocket-9.0.19.jar;C:\Users\14254\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.16.Final\hibernate-validator-6.0.16.Final.jar;C:\Users\14254\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\14254\.m2\repository\org\springframework\spring-web\5.1.7.RELEASE\spring-web-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-webmvc\5.1.7.RELEASE\spring-webmvc-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\14254\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar;C:\Users\14254\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\14254\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar;C:\Users\14254\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\14254\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\14254\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\14254\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar;C:\Users\14254\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar;C:\Users\14254\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\14254\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\14254\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\14254\.m2\repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\kafka\spring-kafka\2.2.5.RELEASE\spring-kafka-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-messaging\5.1.7.RELEASE\spring-messaging-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-tx\5.1.7.RELEASE\spring-tx-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\retry\spring-retry\1.2.4.RELEASE\spring-retry-1.2.4.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\kafka\kafka-clients\2.0.1\kafka-clients-2.0.1.jar;C:\Users\14254\.m2\repository\org\lz4\lz4-java\1.4.1\lz4-java-1.4.1.jar;C:\Users\14254\.m2\repository\org\xerial\snappy\snappy-java\1.1.7.1\snappy-java-1.1.7.1.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-websocket\2.1.5.RELEASE\spring-boot-starter-websocket-2.1.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-websocket\5.1.7.RELEASE\spring-websocket-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-redis\2.2.5.RELEASE\spring-boot-starter-data-redis-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-redis\2.1.8.RELEASE\spring-data-redis-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-keyvalue\2.1.8.RELEASE\spring-data-keyvalue-2.1.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-oxm\5.1.7.RELEASE\spring-oxm-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\io\lettuce\lettuce-core\5.1.6.RELEASE\lettuce-core-5.1.6.RELEASE.jar;C:\Users\14254\.m2\repository\io\netty\netty-common\4.1.36.Final\netty-common-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-handler\4.1.36.Final\netty-handler-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-buffer\4.1.36.Final\netty-buffer-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-codec\4.1.36.Final\netty-codec-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-transport\4.1.36.Final\netty-transport-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\netty\netty-resolver\4.1.36.Final\netty-resolver-4.1.36.Final.jar;C:\Users\14254\.m2\repository\io\projectreactor\reactor-core\3.2.9.RELEASE\reactor-core-3.2.9.RELEASE.jar;C:\Users\14254\.m2\repository\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\14254\.m2\repository\com\alibaba\fastjson\1.2.66\fastjson-1.2.66.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-starter-data-solr\2.2.5.RELEASE\spring-boot-starter-data-solr-2.2.5.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\solr\solr-solrj\7.7.1\solr-solrj-7.7.1.jar;C:\Users\14254\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\14254\.m2\repository\org\noggit\noggit\0.8\noggit-0.8.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-solr\4.0.8.RELEASE\spring-data-solr-4.0.8.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\httpcomponents\httpmime\4.5.8\httpmime-4.5.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-common\3.1.3\hadoop-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-annotations\3.1.3\hadoop-annotations-3.1.3.jar;C:\Users\14254\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\14254\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\14254\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\14254\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\14254\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-server\9.4.18.v20190429\jetty-server-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-http\9.4.18.v20190429\jetty-http-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-io\9.4.18.v20190429\jetty-io-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-util\9.4.18.v20190429\jetty-util-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.18.v20190429\jetty-servlet-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-security\9.4.18.v20190429\jetty-security-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.18.v20190429\jetty-webapp-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.18.v20190429\jetty-xml-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-core\1.19\jersey-core-1.19.jar;C:\Users\14254\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-json\1.19\jersey-json-1.19.jar;C:\Users\14254\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\14254\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.2\jackson-core-asl-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.2\jackson-mapper-asl-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.2\jackson-jaxrs-1.9.2.jar;C:\Users\14254\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.2\jackson-xc-1.9.2.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-server\1.19\jersey-server-1.19.jar;C:\Users\14254\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\14254\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\14254\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\14254\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-configuration2\2.1.1\commons-configuration2-2.1.1.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\14254\.m2\repository\org\apache\avro\avro\1.7.7\avro-1.7.7.jar;C:\Users\14254\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\14254\.m2\repository\com\google\re2j\re2j\1.1\re2j-1.1.jar;C:\Users\14254\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-auth\3.1.3\hadoop-auth-3.1.3.jar;C:\Users\14254\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.1\nimbus-jose-jwt-4.41.1.jar;C:\Users\14254\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-framework\2.13.0\curator-framework-2.13.0.jar;C:\Users\14254\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-client\2.13.0\curator-client-2.13.0.jar;C:\Users\14254\.m2\repository\org\apache\curator\curator-recipes\2.13.0\curator-recipes-2.13.0.jar;C:\Users\14254\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\14254\.m2\repository\org\apache\htrace\htrace-core4\4.1.0-incubating\htrace-core4-4.1.0-incubating.jar;C:\Users\14254\.m2\repository\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;C:\Users\14254\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-simplekdc\1.0.1\kerb-simplekdc-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-client\1.0.1\kerb-client-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-config\1.0.1\kerby-config-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-core\1.0.1\kerb-core-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-pkix\1.0.1\kerby-pkix-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-asn1\1.0.1\kerby-asn1-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-util\1.0.1\kerby-util-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-common\1.0.1\kerb-common-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-crypto\1.0.1\kerb-crypto-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-util\1.0.1\kerb-util-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\token-provider\1.0.1\token-provider-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-admin\1.0.1\kerb-admin-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-server\1.0.1\kerb-server-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerb-identity\1.0.1\kerb-identity-1.0.1.jar;C:\Users\14254\.m2\repository\org\apache\kerby\kerby-xdr\1.0.1\kerby-xdr-1.0.1.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\14254\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\14254\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\3.1.3\hadoop-mapreduce-client-core-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-client\3.1.3\hadoop-yarn-client-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-api\3.1.3\hadoop-yarn-api-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-common\3.1.3\hadoop-yarn-common-3.1.3.jar;C:\Users\14254\.m2\repository\com\sun\jersey\jersey-client\1.19\jersey-client-1.19.jar;C:\Users\14254\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\14254\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\14254\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\14254\.m2\repository\com\sun\jersey\contribs\jersey-guice\1.19\jersey-guice-1.19.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.8\jackson-module-jaxb-annotations-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.9.8\jackson-jaxrs-json-provider-2.9.8.jar;C:\Users\14254\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.9.8\jackson-jaxrs-base-2.9.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-hdfs-client\3.1.3\hadoop-hdfs-client-3.1.3.jar;C:\Users\14254\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar;C:\Users\14254\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\14254\.m2\repository\com\google\inject\extensions\guice-servlet\4.0\guice-servlet-4.0.jar;C:\Users\14254\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\3.1.3\hadoop-mapreduce-client-shuffle-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\3.1.3\hadoop-yarn-server-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-registry\3.1.3\hadoop-yarn-registry-3.1.3.jar;C:\Users\14254\.m2\repository\dnsjava\dnsjava\2.1.7\dnsjava-2.1.7.jar;C:\Users\14254\.m2\repository\org\apache\geronimo\specs\geronimo-jcache_1.0_spec\1.0-alpha-1\geronimo-jcache_1.0_spec-1.0-alpha-1.jar;C:\Users\14254\.m2\repository\org\ehcache\ehcache\3.6.3\ehcache-3.6.3.jar;C:\Users\14254\.m2\repository\com\zaxxer\HikariCP-java7\2.4.12\HikariCP-java7-2.4.12.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-yarn-server-nodemanager\3.1.3\hadoop-yarn-server-nodemanager-3.1.3.jar;C:\Users\14254\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\3.1.3\hadoop-mapreduce-client-common-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\3.1.3\hadoop-mapreduce-client-jobclient-3.1.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-hdfs\3.1.3\hadoop-hdfs-3.1.3.jar;C:\Users\14254\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.18.v20190429\jetty-util-ajax-9.4.18.v20190429.jar;C:\Users\14254\.m2\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;C:\Users\14254\.m2\repository\io\netty\netty-all\4.1.36.Final\netty-all-4.1.36.Final.jar;C:\Users\14254\.m2\repository\com\janeluo\ikanalyzer\2012_u6\ikanalyzer-2012_u6.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-core\4.7.2\lucene-core-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-queryparser\4.7.2\lucene-queryparser-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-queries\4.7.2\lucene-queries-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-sandbox\4.7.2\lucene-sandbox-4.7.2.jar;C:\Users\14254\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.7.2\lucene-analyzers-common-4.7.2.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop\2.5.0.RELEASE\spring-data-hadoop-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-core\2.5.0.RELEASE\spring-data-hadoop-core-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-hive\2.5.0.RELEASE\spring-data-hadoop-hive-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\batch\spring-batch-core\4.1.2.RELEASE\spring-batch-core-4.1.2.RELEASE.jar;C:\Users\14254\.m2\repository\javax\batch\javax.batch-api\1.0\javax.batch-api-1.0.jar;C:\Users\14254\.m2\repository\org\springframework\batch\spring-batch-infrastructure\4.1.2.RELEASE\spring-batch-infrastructure-4.1.2.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-context-support\5.1.7.RELEASE\spring-context-support-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\spring-jdbc\5.1.7.RELEASE\spring-jdbc-5.1.7.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-pig\2.5.0.RELEASE\spring-data-hadoop-pig-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-batch\2.5.0.RELEASE\spring-data-hadoop-batch-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\springframework\data\spring-data-hadoop-hbase\2.5.0.RELEASE\spring-data-hadoop-hbase-2.5.0.RELEASE.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-streaming\2.7.3\hadoop-streaming-2.7.3.jar;C:\Users\14254\.m2\repository\org\apache\hadoop\hadoop-distcp\2.7.3\hadoop-distcp-2.7.3.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-client\2.2.2\hbase-client-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.2.1\hbase-shaded-protobuf-2.2.1.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-common\2.2.2\hbase-common-2.2.2.jar;C:\Users\14254\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-hadoop-compat\2.2.2\hbase-hadoop-compat-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-metrics-api\2.2.2\hbase-metrics-api-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\2.2.2\hbase-hadoop2-compat-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-metrics\2.2.2\hbase-metrics-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.2.2\hbase-protocol-shaded-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\hbase-protocol\2.2.2\hbase-protocol-2.2.2.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.2.1\hbase-shaded-miscellaneous-2.2.1.jar;C:\Users\14254\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;C:\Users\14254\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.2.1\hbase-shaded-netty-2.2.1.jar;C:\Users\14254\.m2\repository\org\jruby\jcodings\jcodings\1.0.18\jcodings-1.0.18.jar;C:\Users\14254\.m2\repository\org\jruby\joni\joni\2.1.11\joni-2.1.11.jar;C:\Users\14254\.m2\repository\io\dropwizard\metrics\metrics-core\4.0.5\metrics-core-4.0.5.jar;C:\Users\14254\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\14254\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\14254\.m2\repository\org\springframework\boot\spring-boot-configuration-processor\2.1.5.RELEASE\spring-boot-configuration-processor-2.1.5.RELEASE.jar
-2020-04-24 18:16:18.676 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=D:\intellij\IntelliJ IDEA 2018.3.5\jbr\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\xftp\;C:\Python37\Scripts;E:\xshell\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Python27\Lib\site-packages\django;C:\windows\System32\OpenSSH\;E:\mysql-8.0.11-winx64\bin;D:\tesseract\Tesseract-OCR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;D:\maven\apache-maven-3.6.0\bin;D:\codeblocks\MinGW\bin;D:\codeblocks\MinGW\bin\gdb32.exe;"D:\java\tomcat\apache-tomcat-9.0.17\lib;D:\java\tomcat\apache-tomcat-9.0.17\bin";D:\mongodb\bin;D:\flutter\bin;D:\appData\tools;D:\appData\platform-tools;D:\gradle\gradle-5.5\bin;C:\Python37;C:\Python37\Lib;D:\Git\cmd;C:\Go\bin;D:\software\jmeter\apache-jmeter-5.2.1\bin;D:\software\zookeeper\apache-zookeeper-3.5.7-bin\bin;D:\software\hadoop\hadoop-3.1.3\hadoop-3.1.3\bin;D:\software\hadoop\hadoop-3.1.3\hadoop-3.1.3\sbin;C:\Users\14254\AppData\Local\Microsoft\WindowsApps;C:\Python27\Lib\site-packages\django;C:\Python27;C:\Python27\Scripts\pip;C:\Python27\Lib\site-packages\Django-1.11.13-py2.7.egg\django\db\backends\mysql;E:\mysql-8.0.11-winx64\bin;D:\Git;D:\tesseract\Tesseract-OCR;C:\Users\14254\AppData\Roaming\npm;D:\intellij\IntelliJ IDEA 2018.3.5\bin;;D:\software\java\Java\jdk1.8.0_251\bin;D:\software\java\Java\jdk1.8.0_251\jre\bin;D:\vscode\Microsoft VS Code\bin;D:\codeblocks\MinGW\bin;C:\Python37;C:\Python37\Lib;C:\Python37\Scripts;;D:\software\pycharm\PyCharm 2019.2.5\bin;;D:\software\docker toolbox\Docker Toolbox;C:\Users\14254\go\bin;.
-2020-04-24 18:16:18.678 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\14254\AppData\Local\Temp\
-2020-04-24 18:16:18.680 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-2020-04-24 18:16:18.682 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-2020-04-24 18:16:18.684 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
-2020-04-24 18:16:18.686 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-2020-04-24 18:16:18.687 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=14254
-2020-04-24 18:16:18.689 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\14254
-2020-04-24 18:16:18.691 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=D:\school\3x\SE343\project\ebook-springboot
-2020-04-24 18:16:18.693 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2183 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$149/0x000000010026f040@19d01768
-2020-04-24 18:16:18.695 [main] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server kubernetes.docker.internal/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
-2020-04-24 18:16:18.696 [main] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to kubernetes.docker.internal/127.0.0.1:2183, initiating session
-2020-04-24 18:16:18.699 [main] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2183, sessionid = 0x171ab0aef96000e, negotiated timeout = 40000
-2020-04-24 18:16:18.701 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log0
-2020-04-24 18:16:18.703 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log0, procId: 148 completed
-2020-04-24 18:16:18.705 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log0, procId: 151 completed
-2020-04-24 18:16:18.706 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log0, procId: 152 completed
-2020-04-24 18:16:18.708 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log1
-2020-04-24 18:16:18.710 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log1, procId: 155 completed
-2020-04-24 18:16:18.712 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log1, procId: 158 completed
-2020-04-24 18:16:18.714 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log1, procId: 159 completed
-2020-04-24 18:16:18.716 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Started disable of ebook-log2
-2020-04-24 18:16:18.718 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DISABLE, Table Name: default:ebook-log2, procId: 162 completed
-2020-04-24 18:16:18.720 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: DELETE, Table Name: default:ebook-log2, procId: 165 completed
-2020-04-24 18:16:18.721 [main] INFO  org.apache.hadoop.hbase.client.HBaseAdmin - Operation: CREATE, Table Name: default:ebook-log2, procId: 166 completed
-2020-04-24 18:17:03.961 [main] INFO  backend.EbookApplication - Starting EbookApplication on DESKTOP-0ONHHBH with PID 15988 (D:\school\3x\SE343\project\ebook-springboot\target\classes started by 14254 in D:\school\3x\SE343\project\ebook-springboot)
-2020-04-24 18:17:03.978 [main] INFO  backend.EbookApplication - No active profile set, falling back to default profiles: default
-2020-04-24 18:17:06.628 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:17:06.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:17:06.731 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:17:06.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 178ms. Found 5 repository interfaces.
-2020-04-24 18:17:06.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:17:06.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:17:06.902 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:17:06.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:17:06.909 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:17:06.914 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:17:06.920 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:17:06.942 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 1 repository interfaces.
-2020-04-24 18:17:06.964 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:17:06.969 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:17:06.997 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:17:07.001 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:17:07.004 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:17:07.007 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:17:07.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:17:07.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:17:07.016 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
-2020-04-24 18:17:07.120 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-04-24 18:17:07.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-04-24 18:17:07.147 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookMongoDBRepository.
-2020-04-24 18:17:07.150 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.BookRepository.
-2020-04-24 18:17:07.153 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.CartRepository.
-2020-04-24 18:17:07.156 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderItemRepository.
-2020-04-24 18:17:07.159 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.OrderRepository.
-2020-04-24 18:17:07.162 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Solr - Could not safely identify store assignment for repository candidate interface backend.Repository.UserRepository.
-2020-04-24 18:17:07.164 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
-2020-04-24 18:17:07.941 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3fa196c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:17:08.063 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bef8542] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:17:08.113 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [backend.config.RedisConfig$$EnhancerBySpringCGLIB$$eb783872] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:17:08.192 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$eb6fd274] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-24 18:17:08.929 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4333 (http)
-2020-04-24 18:17:08.989 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-04-24 18:17:08.995 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-2020-04-24 18:17:09.768 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2020-04-24 18:17:09.771 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5642 ms
-2020-04-24 18:17:10.434 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2020-04-24 18:17:11.072 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2020-04-24 18:17:11.178 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2020-04-24 18:17:11.300 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
-2020-04-24 18:17:11.304 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2020-04-24 18:17:11.522 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-04-24 18:17:11.801 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2020-04-24 18:17:12.753 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-04-24 18:17:16.627 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2020-04-24 18:17:16.697 [cluster-ClusterId{value='5ea2bcac90951b3e7490cae2', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
-2020-04-24 18:17:16.706 [cluster-ClusterId{value='5ea2bcac90951b3e7490cae2', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3005600}
-2020-04-24 18:17:20.576 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-24 18:17:20.637 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-04-24 18:17:21.588 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.638 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.640 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.751 [main] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:21.764 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.773 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.775 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.780 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:17:21.787 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.796 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.799 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.809 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:21.813 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:17:21.816 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:17:21.824 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.835 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:17:21.844 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:17:21.850 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:21.854 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.855 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
-2020-04-24 18:17:21.870 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:17:21.874 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.881 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:17:21.884 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:17:21.889 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:17:21.893 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.898 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] (Re-)joining group
-2020-04-24 18:17:21.923 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 7
-2020-04-24 18:17:21.931 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.934 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
-2020-04-24 18:17:21.937 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.941 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:21.947 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
-2020-04-24 18:17:21.947 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:17:21.949 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:17:21.955 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
-	auto.commit.interval.ms = 1000
-	auto.offset.reset = latest
-	bootstrap.servers = [127.0.0.1:9092]
-	check.crcs = true
-	client.id = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = spring
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
-	ssl.endpoint.identification.algorithm = https
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLS
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2020-04-24 18:17:21.958 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:17:21.967 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:17:21.970 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] (Re-)joining group
-2020-04-24 18:17:21.980 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
-2020-04-24 18:17:21.983 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
-2020-04-24 18:17:21.987 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-04-24 18:17:22.155 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:22.155 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
-2020-04-24 18:17:22.159 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:17:22.161 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
-2020-04-24 18:17:22.163 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:17:22.166 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Revoking previously assigned partitions []
-2020-04-24 18:17:22.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4333 (http) with context path ''
-2020-04-24 18:17:22.167 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:17:22.172 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
-2020-04-24 18:17:22.174 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] (Re-)joining group
-2020-04-24 18:17:22.176 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] (Re-)joining group
-2020-04-24 18:17:22.178 [main] INFO  backend.EbookApplication - Started EbookApplication in 63.38 seconds (JVM running for 124.978)
-2020-04-24 18:17:24.967 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Attempt to heartbeat failed since group is rebalancing
-2020-04-24 18:17:24.976 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions [ebook-order-0]
-2020-04-24 18:17:24.978 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: [ebook-order-0]
-2020-04-24 18:17:24.981 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
-2020-04-24 18:17:25.001 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 8
-2020-04-24 18:17:25.001 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Successfully joined group with generation 8
-2020-04-24 18:17:25.002 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Successfully joined group with generation 8
-2020-04-24 18:17:25.003 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Successfully joined group with generation 8
-2020-04-24 18:17:25.004 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Successfully joined group with generation 8
-2020-04-24 18:17:25.005 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
-2020-04-24 18:17:25.007 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:17:25.011 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:17:25.014 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:17:25.017 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Setting newly assigned partitions []
-2020-04-24 18:17:25.020 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:17:25.022 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:17:25.025 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:17:25.029 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
-2020-04-24 18:17:25.035 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
-2020-04-24 18:17:55.391 [http-nio-4333-exec-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-24 18:17:55.396 [http-nio-4333-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-04-24 18:17:55.433 [http-nio-4333-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 35 ms
-2020-04-24 18:18:15.246 [http-nio-4333-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.io.UncheckedIOException: org.apache.hadoop.hbase.TableNotFoundException: ebook-log3] with root cause
-org.apache.hadoop.hbase.TableNotFoundException: ebook-log3
-	at org.apache.hadoop.hbase.client.ConnectionImplementation.locateRegionInMeta(ConnectionImplementation.java:885)
-	at org.apache.hadoop.hbase.client.ConnectionImplementation.locateRegion(ConnectionImplementation.java:780)
-	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:326)
-	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:153)
-	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:58)
-	at org.apache.hadoop.hbase.client.RpcRetryingCallerImpl.callWithoutRetries(RpcRetryingCallerImpl.java:192)
-	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:267)
-	at org.apache.hadoop.hbase.client.ClientScanner.loadCache(ClientScanner.java:435)
-	at org.apache.hadoop.hbase.client.ClientScanner.nextWithSyncCache(ClientScanner.java:310)
-	at org.apache.hadoop.hbase.client.ClientScanner.next(ClientScanner.java:595)
-	at org.apache.hadoop.hbase.client.ResultScanner$1.hasNext(ResultScanner.java:53)
-	at backend.util.HBaseUtils.scanAllRecord(HBaseUtils.java:211)
-	at backend.Controller.HBaseController.test1(HBaseController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-29 19:12:31.951 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.1
+2020-04-29 19:12:31.957 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : fa14705e51bd2ce5
+2020-04-29 19:12:31.964 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:31.965 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-04-29 19:12:31.968 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
+2020-04-29 19:12:31.992 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:31.997 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:32.001 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] (Re-)joining group
+2020-04-29 19:12:32.037 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: Mt936YpBSzqwV86Kj_S69g
+2020-04-29 19:12:32.048 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Discovered group coordinator DESKTOP-0ONHHBH:9092 (id: 2147483647 rack: null)
+2020-04-29 19:12:32.052 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:32.057 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:32.062 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] (Re-)joining group
+2020-04-29 19:12:32.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4333 (http) with context path ''
+2020-04-29 19:12:32.077 [main] INFO  backend.EbookApplication - Started EbookApplication in 79.326 seconds (JVM running for 84.465)
+2020-04-29 19:12:34.870 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Attempt to heartbeat failed since group is rebalancing
+2020-04-29 19:12:34.872 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Attempt to heartbeat failed since group is rebalancing
+2020-04-29 19:12:34.873 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Revoking previously assigned partitions []
+2020-04-29 19:12:34.878 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Revoking previously assigned partitions [ebook-order-0]
+2020-04-29 19:12:34.879 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: []
+2020-04-29 19:12:34.882 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions revoked: [ebook-order-0]
+2020-04-29 19:12:34.885 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] (Re-)joining group
+2020-04-29 19:12:34.888 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] (Re-)joining group
+2020-04-29 19:12:34.900 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=spring] Successfully joined group with generation 20
+2020-04-29 19:12:34.900 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=spring] Successfully joined group with generation 20
+2020-04-29 19:12:34.900 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=spring] Successfully joined group with generation 20
+2020-04-29 19:12:34.901 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=spring] Successfully joined group with generation 20
+2020-04-29 19:12:34.901 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=spring] Successfully joined group with generation 20
+2020-04-29 19:12:34.903 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=spring] Setting newly assigned partitions [ebook-order-0]
+2020-04-29 19:12:34.906 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=spring] Setting newly assigned partitions []
+2020-04-29 19:12:34.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=spring] Setting newly assigned partitions []
+2020-04-29 19:12:34.913 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=spring] Setting newly assigned partitions []
+2020-04-29 19:12:34.916 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=spring] Setting newly assigned partitions []
+2020-04-29 19:12:34.919 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
+2020-04-29 19:12:34.922 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
+2020-04-29 19:12:34.925 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
+2020-04-29 19:12:34.930 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: [ebook-order-0]
+2020-04-29 19:12:34.940 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - partitions assigned: []
+2020-04-29 19:12:38.548 [ReadOnlyZKClient-127.0.0.1:2183@0x51bde877] INFO  org.apache.zookeeper.ZooKeeper - Session: 0x171c59c5a330006 closed
+2020-04-29 19:12:38.548 [ReadOnlyZKClient-127.0.0.1:2183@0x51bde877-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x171c59c5a330006
+2020-04-29 19:12:53.359 [http-nio-4333-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 19:12:53.363 [http-nio-4333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 19:12:53.431 [http-nio-4333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 62 ms
+2020-04-29 19:12:53.572 [http-nio-4333-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-04-29 19:12:54.098 [http-nio-4333-exec-1] INFO  Driver - Direct driver instance 1155142653 created for server address localhost:7687
+2020-04-29 20:08:08.890 [http-nio-4333-exec-10] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2020-04-29 20:08:08.890 [http-nio-4333-exec-9] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:4}] to localhost:27017
+2020-04-29 20:08:08.890 [http-nio-4333-exec-8] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:5}] to localhost:27017
+2020-04-29 20:08:08.890 [http-nio-4333-exec-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:3}] to localhost:27017
+2020-04-29 20:11:13.201 [http-nio-4333-exec-3] INFO  websocket - Connection opened.
+2020-04-29 20:11:13.226 [http-nio-4333-exec-3] INFO  websocket - Received: [JoinMessage] 1111
+2020-04-29 20:11:13.229 [http-nio-4333-exec-3] INFO  websocket - Received: [JoinMessage] 1111
+2020-04-29 20:11:13.235 [http-nio-4333-exec-3] INFO  websocket - Sent: [InfoMessage] 1111 has joined the chat
+2020-04-29 20:11:13.239 [http-nio-4333-exec-3] INFO  websocket - Sent: [ChatMessage] Duke-1111-Hi there!!
+2020-04-29 20:11:13.243 [http-nio-4333-exec-3] INFO  websocket - Sent: [UsersMessage] [1111]
+2020-04-29 20:11:14.809 [http-nio-4333-exec-8] INFO  websocket - Connection closed.

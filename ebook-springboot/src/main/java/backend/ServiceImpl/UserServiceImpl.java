@@ -19,7 +19,6 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public User addUser(User user) {
         user.setStatus(0);
         user.setIdentity(0);
@@ -29,7 +28,6 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public User findUserByUsername(String username) {
         return userDao.findOne(username);
     }
@@ -59,14 +57,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public boolean nameIsValid(String username) {
         if(userDao.findByUsername(username)== null) return true;
         return false;
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public boolean checkPassword(User user) {
         try{
             User userFind = userDao.findOne(user.getUsername());

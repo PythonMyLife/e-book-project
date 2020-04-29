@@ -22,4 +22,7 @@ public interface UserDao {
 
     //查找全部user
     List<User> findAll();
+
+    // 模糊查找user
+    List<User> findAllByUsernameContains(String username);
 }

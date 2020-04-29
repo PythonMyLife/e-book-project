@@ -76,7 +76,6 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean addBookMongo(MultipartFile cover, String isbn){
         try{
             BookMongoDB bookMongoDB = bookMongoDBDao.findByIsbn(isbn);
@@ -98,7 +97,6 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean addBook(MultipartFile cover, String isbn, String bookname, String author, Integer num, String detail, Double price){
         Book book = new Book();
         book.setIsbn(isbn);

@@ -8,6 +8,7 @@
                     <li><router-link :to="{name:'cart',params:{username:this.username}}" >购物车</router-link></li>
                     <li><a href="#" class="current">订单与统计</a></li>
                     <li><router-link :to="{name:'talk',params:{username:this.username}}" >聊天室</router-link></li>
+                    <li><router-link :to="{name:'friend',params:{username:this.username}}" >好友</router-link></li>
                 </ul>
             </div> <!-- end of menu -->
 
@@ -195,13 +196,13 @@
                 this.$router.push({name:"index",params:{}});
             }
             axios
-                .get('http://localhost:8088/ebook/getuserorder', {params:{username:this.username}})
+                .get('http://localhost:4333/ebook/getuserorder', {params:{username:this.username}})
                 .then(response => {
                     this.items = response.data;
                     this.table = response.data;
                     for(let i = 0; i < this.items.length; i++){
                         for(let j = 0; j < this.items[i].orderItemList.length; j++){
-                            axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.items[i].orderItemList[j].book.isbn}}
+                            axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.items[i].orderItemList[j].book.isbn}}
                             ).then(response => {
                                 this.items[i].orderItemList[j].book.cover = "data:image/png;base64," + response.data.cover.toString();
                             });

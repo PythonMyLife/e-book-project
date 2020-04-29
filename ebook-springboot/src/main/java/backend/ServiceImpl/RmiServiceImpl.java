@@ -20,7 +20,6 @@ public class RmiServiceImpl implements RmiService{
     private BookDao bookDao;
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public List<Map<String, Object>> getDetail(String book) {
         List<Map<String, Object>> result = new ArrayList<>();
         List<Book> books = bookDao.findAllByBooknameEquals(book);

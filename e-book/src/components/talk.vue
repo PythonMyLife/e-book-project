@@ -8,6 +8,7 @@
                     <li><router-link :to="{name:'cart',params:{username:this.username}}" >购物车</router-link></li>
                     <li><router-link :to="{name:'userorder',params:{username:this.username}}" >订单与统计</router-link></li>
                     <li><a href="#" class="current">聊天室</a></li>
+                    <li><router-link :to="{name:'friend',params:{username:this.username}}" >好友</router-link></li>
                 </ul>
             </div> <!-- end of menu -->
             <el-card class="box-card" style="text-align: left;">
@@ -113,7 +114,7 @@
         },
         methods: {
             initWebsocket() {
-                const uri = "ws://localhost:8088/websocket";
+                const uri = "ws://localhost:4333/websocket";
                 this.websocket = new WebSocket(uri);
                 this.websocket.onopen = this.onOpen;
                 this.websocket.onmessage = this.onMessage;

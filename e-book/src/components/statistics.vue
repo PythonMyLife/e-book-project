@@ -106,7 +106,7 @@
                 this.$router.push({name:"index",params:{}});
             }
             axios
-                .get('http://localhost:8088/ebook/getorders', {params:{username:this.username}})
+                .get('http://localhost:4333/ebook/getorders', {params:{username:this.username}})
                 .then(response => {
                     this.items = response.data;
                     this.table = response.data;
@@ -181,7 +181,7 @@
                         }
                     }
                 }
-                axios.get('http://localhost:8088/ebook/getUsers').then(response => {
+                axios.get('http://localhost:4333/ebook/getUsers').then(response => {
                     this.allUser = response.data;
                     while(this.allUser.length > 0){
                         let username = (this.allUser.pop()).username;

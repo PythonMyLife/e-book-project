@@ -42,7 +42,6 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean saveCart(String username, String isbn, Integer num){
         Cart cart = new Cart();
         Book book = bookDao.findByIsbn(isbn);
@@ -56,7 +55,6 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public Boolean addCart(String username, String isbn){
         try{
             Cart cart = cartDao.getCartByUserAndIsbn(username, isbn);

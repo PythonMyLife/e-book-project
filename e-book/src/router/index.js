@@ -14,6 +14,7 @@ import userorder from '../components/userorder.vue'
 import bookmanage from '../components/bookmanage.vue'
 import statistics from '../components/statistics.vue'
 import talk from '../components/talk.vue'
+import friend from '../components/friend.vue'
 
 
 Vue.use(Router);
@@ -79,5 +80,9 @@ export default new Router({
         path: '/talk',
         name: 'talk',
         component: talk
+    }, {
+        path: '/friend',
+        name: 'friend',
+        component: friend
     }]
 });

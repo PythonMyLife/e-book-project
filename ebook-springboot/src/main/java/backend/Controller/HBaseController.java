@@ -17,9 +17,9 @@ public class HBaseController {
     @Autowired
     private HBaseUtils hBaseUtils;
 
-    @RequestMapping(value = "/test1")
+    @RequestMapping(value = "/scan")
     @ResponseBody
-    public Map<String,Object> test1(String table) throws IOException {
+    public Map<String,Object> scan(String table) throws IOException {
         Map<String,Object> map = new HashMap<String,Object>();
         if(!hBaseUtils.existsTable(table)) {
             return map;
@@ -34,19 +34,9 @@ public class HBaseController {
         }
     }
 
-    @RequestMapping(value = "/test2")
+    @RequestMapping(value = "/select")
     @ResponseBody
-    public Boolean test2() {
-        try{
-            String[] columnFamily = new String[]{"one"};
-            hBaseUtils.createTable("oneTest", columnFamily);
-            hBaseUtils.insertOneRecord("oneTest", "1", "one", "111","111");
-            String str = hBaseUtils.scanAllRecord("oneTest");//扫描表
-            System.out.println("获取到hbase的内容："+str);
-            hBaseUtils.deleteTable("oneTest");
-            return true;
-        }catch (Exception e) {
-            return false;
-        }
+    public String select(String tablename, String rowKey) throws IOException {
+        return hBaseUtils.selectRow(tablename, rowKey);
     }
 }

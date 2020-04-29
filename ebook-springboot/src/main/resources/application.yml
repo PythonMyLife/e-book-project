@@ -16,6 +16,9 @@ spring:
         enabled: true
     mongodb:
       uri: mongodb://localhost:27017/ebook
+    neo4j:
+      username: neo4j
+      password: root
   jpa:
     show-sql: true
     properties:

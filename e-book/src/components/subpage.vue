@@ -38,7 +38,7 @@
     mounted () {
       this.username = this.$route.params.username;
       this.isbn = this.$route.params.data;
-      axios.get('http://localhost:8088/ebook/subpage',{params:{isbn:this.isbn}}).then(response => {
+      axios.get('http://localhost:4333/ebook/subpage',{params:{isbn:this.isbn}}).then(response => {
         this.detail = response.data;
       });
     },

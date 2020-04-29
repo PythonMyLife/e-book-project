@@ -65,7 +65,7 @@ export default {
         this.error = "邮箱格式不正确";
       }else{
         let form_data = {"username":this.username,"password":this.password1,"email":this.email};
-        axios.post('http://localhost:8088/ebook/regist',form_data).then(response=>{
+        axios.post('http://localhost:4333/ebook/regist',form_data).then(response=>{
           this.msg = response.data;
           if(this.msg === 0 ){
             this.error = "用户名重复！";

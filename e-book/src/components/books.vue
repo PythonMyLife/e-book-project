@@ -8,6 +8,7 @@
                     <li><router-link :to="{name:'cart',params:{username:this.username}}" >购物车</router-link></li>
                     <li><router-link :to="{name:'userorder',params:{username:this.username}}" >订单与统计</router-link></li>
                     <li><router-link :to="{name:'talk',params:{username:this.username}}" >聊天室</router-link></li>
+                    <li><router-link :to="{name:'friend',params:{username:this.username}}" >好友</router-link></li>
                 </ul>
             </div> <!-- end of menu -->
 
@@ -74,15 +75,15 @@
                 this.$router.push({name:"index",params:{}});
             }
             axios
-                .get('http://localhost:8088/ebook/validBooks').then(response => {
+                .get('http://localhost:4333/ebook/validBooks').then(response => {
                     this.table = response.data;
                     for(let i = 0; i < this.table.length; i++){
-                        axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                        axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                         ).then(response => {
                             this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                         });
                     }
-                    axios.get('http://localhost:8088/visit/count').then(response => {
+                    axios.get('http://localhost:4333/visit/count').then(response => {
                         this.num = response.data;
                     })
                 });
@@ -97,7 +98,7 @@
             },
             handleadd(index, row) {
                 let form_data = {"username": this.username,"isbn":row.isbn};
-                axios.post('http://localhost:8088/ebook/addcart',form_data).then(response =>{
+                axios.post('http://localhost:4333/ebook/addcart',form_data).then(response =>{
                     this.message = response.status;
                 });
                 this.$alert("加购成功!");

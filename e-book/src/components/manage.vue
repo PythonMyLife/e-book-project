@@ -49,7 +49,7 @@
             }
         },
         mounted () {
-            axios.get('http://localhost:8088/ebook/getUsers').then(response => {
+            axios.get('http://localhost:4333/ebook/getUsers').then(response => {
                 this.tableData = response.data;
             });
             this.username = this.$route.params.username;
@@ -60,13 +60,13 @@
         },
         methods: {
             handleChange(username){
-                axios.post('http://localhost:8088/ebook/changeStatus',{"username":username}).then(response =>{
+                axios.post('http://localhost:4333/ebook/changeStatus',{"username":username}).then(response =>{
                     if(response.data === 0){
                         this.$alert("更改失败");
                     }else{
                         this.$alert("更改成功");
                     }
-                    axios.get('http://localhost:8088/ebook/getUsers').then(response => {
+                    axios.get('http://localhost:4333/ebook/getUsers').then(response => {
                         this.tableData = response.data;
                     });
                 })

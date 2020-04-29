@@ -83,13 +83,13 @@
                 this.$router.push({name:"index",params:{}});
             }
             axios
-                .get('http://localhost:8088/ebook/getorders')
+                .get('http://localhost:4333/ebook/getorders')
                 .then(response => {
                     this.items = response.data;
                     this.table = response.data;
                     for(let i = 0; i < this.items.length; i++){
                         for(let j = 0; j < this.items[i].orderItemList.length; j++){
-                            axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.items[i].orderItemList[j].book.isbn}}
+                            axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.items[i].orderItemList[j].book.isbn}}
                             ).then(response => {
                                 this.items[i].orderItemList[j].book.cover = "data:image/png;base64," + response.data.cover.toString();
                             });

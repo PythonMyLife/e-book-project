@@ -149,10 +149,10 @@
                 this.$alert("未登录请先登录");
                 this.$router.push({name:"index",params:{}});
             }
-            axios.get('http://localhost:8088/ebook/validBooks').then(response => {
+            axios.get('http://localhost:4333/ebook/validBooks').then(response => {
                 this.table = response.data;
                 for(let i = 0; i < this.table.length; i++){
-                    axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                    axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                     ).then(response => {
                         this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                     });
@@ -169,13 +169,13 @@
             },
             handleDelete(index, row) {
                 let form_data = {"username" : this.username, "isbn" : row.isbn};
-                axios.post('http://localhost:8088/ebook/deleteBook', form_data).then(response =>{
+                axios.post('http://localhost:4333/ebook/deleteBook', form_data).then(response =>{
                     if(response.data) {
                         this.$alert("删除成功");
-                        axios.get('http://localhost:8088/ebook/validBooks').then(response => {
+                        axios.get('http://localhost:4333/ebook/validBooks').then(response => {
                             this.table = response.data;
                             for(let i = 0; i < this.table.length; i++){
-                                axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                                axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                                 ).then(response => {
                                     this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                                 });
@@ -208,16 +208,16 @@
                 bodyFormData.set('price', this.bookForm.price);
                 if(imagFile === undefined){
                     axios({method: 'post',
-                        url: 'http://localhost:8088/ebook/editBookWithoutCover',
+                        url: 'http://localhost:4333/ebook/editBookWithoutCover',
                         data: bodyFormData,
                         config: { headers: {'Content-Type': 'multipart/form-data' }}}
                     ).then(response =>{
                         if(response.data) {
                             axios
-                                .get('http://localhost:8088/ebook/validBooks').then(response => {
+                                .get('http://localhost:4333/ebook/validBooks').then(response => {
                                 this.table = response.data;
                                 for(let i = 0; i < this.table.length; i++){
-                                    axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                                    axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                                     ).then(response => {
                                         this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                                     });
@@ -231,16 +231,16 @@
                 }else{
                     bodyFormData.append('cover',imagFile);
                     axios({method: 'post',
-                        url: 'http://localhost:8088/ebook/editBook',
+                        url: 'http://localhost:4333/ebook/editBook',
                         data: bodyFormData,
                         config: { headers: {'Content-Type': 'multipart/form-data' }}}
                     ).then(response =>{
                         if(response.data) {
                             axios
-                                .get('http://localhost:8088/ebook/validBooks').then(response => {
+                                .get('http://localhost:4333/ebook/validBooks').then(response => {
                                 this.table = response.data;
                                 for(let i = 0; i < this.table.length; i++){
-                                    axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                                    axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                                     ).then(response => {
                                         this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                                     });
@@ -281,17 +281,17 @@
                     bodyFormData.set('price', this.addbookForm.price);
                     bodyFormData.append('cover',imagFile);
                     axios({method: 'post',
-                        url: 'http://localhost:8088/ebook/addBook',
+                        url: 'http://localhost:4333/ebook/addBook',
                         data: bodyFormData,
                         config: { headers: {'Content-Type': 'multipart/form-data' }}}
                     ).then(response => {
                         if(response.data){
                             this.$alert("添加书籍成功");
                             axios
-                                .get('http://localhost:8088/ebook/validBooks').then(response => {
+                                .get('http://localhost:4333/ebook/validBooks').then(response => {
                                 this.table = response.data;
                                 for(let i = 0; i < this.table.length; i++){
-                                    axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
+                                    axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].isbn}}
                                     ).then(response => {
                                         this.table[i].cover = "data:image/png;base64," + response.data.cover.toString();
                                     });

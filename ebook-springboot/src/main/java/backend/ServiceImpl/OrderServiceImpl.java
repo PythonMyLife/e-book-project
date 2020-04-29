@@ -32,7 +32,6 @@ public class OrderServiceImpl implements OrderService {
     KafkaTemplate kafkaTemplate;
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public List<Order> findAllOrder(){
         List<Order> orderList = orderDao.findAll();
         for(Order order : orderList){
@@ -43,7 +42,6 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
     public List<Order> findAllOrderByUsernameAndStatus(String username){
         List<Order> orderList = orderDao.findAllByUserAndStatus(username, 0);
         for(Order order : orderList){
@@ -54,7 +52,6 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public Boolean submitOrder(String username){
         try{
             kafkaTemplate.send("ebook-order", username);
@@ -63,30 +60,5 @@ public class OrderServiceImpl implements OrderService {
             System.out.println(e.toString());
             return false;
         }
-//        List<Cart> cartList = cartDao.getUserCart(username);
-//        if(cartList.isEmpty()) return false;
-//        for(Cart cart: cartList){
-//            if(cart.getNum() > cart.getBook().getNum())
-//                return false;
-//        }
-//
-//        Order order = new Order();
-//        order.setUser(cartList.get(0).getUser());
-//        order.setStatus(0);
-//        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-//        String dateTime = df.format(new Date());
-//        order.setTime(dateTime);
-//        orderDao.saveOrder(order);
-//        for(Cart cart: cartList){
-//            OrderItem orderItem = new OrderItem();
-//            orderItem.setOrder_id(order.getOrder_id());
-//            orderItem.setBook(cart.getBook());
-//            orderItem.setNumber(cart.getNum());
-//            orderItemDao.saveItem(orderItem);
-//            cartDao.deleteCart(cart.getBook(),cart.getUser());
-//            bookDao.setBookNum(cart.getBook(),cart.getBook().getNum() - cart.getNum());
-//        }
-//
-//        return true;
     }
 }

@@ -8,6 +8,7 @@
                     <li><a href="#" class="current">购物车</a></li>
                     <li><router-link :to="{name:'userorder',params:{username:this.username}}" >订单与统计</router-link></li>
                     <li><router-link :to="{name:'talk',params:{username:this.username}}" >聊天室</router-link></li>
+                    <li><router-link :to="{name:'friend',params:{username:this.username}}" >好友</router-link></li>
                 </ul>
             </div> <!-- end of menu -->
 
@@ -87,10 +88,10 @@
                 this.$alert("未登录请先登录");
                 this.$router.push({name:"index",params:{}});
             }
-            axios.get('http://localhost:8088/ebook/get_user_carts',{params:{username:this.username}}).then(response => {
+            axios.get('http://localhost:4333/ebook/get_user_carts',{params:{username:this.username}}).then(response => {
                 this.table = response.data;
                 for(let i = 0; i < this.table.length; i++){
-                    axios.get('http://localhost:8088/ebook/bookMongo', {params:{isbn:this.table[i].book.isbn}}
+                    axios.get('http://localhost:4333/ebook/bookMongo', {params:{isbn:this.table[i].book.isbn}}
                     ).then(response => {
                         this.table[i].book.cover = "data:image/png;base64," + response.data.cover.toString();
                     });
@@ -112,17 +113,17 @@
                 {
                     if (this.table[i].book.isbn === isbn) {
                         let form_data={"username":this.username,"isbn":this.table[i].book.isbn};
-                        axios.post('http://localhost:8088/ebook/deletecart',form_data);
+                        axios.post('http://localhost:4333/ebook/deletecart',form_data);
                         this.table.splice(i, 1);
                     }
                 }
             },
             handleChange(username,isbn,number){
                 let form_data={"username":username,"isbn":isbn,"num":number};
-                axios.get('http://localhost:8088/ebook/savecart',{params:form_data});
+                axios.get('http://localhost:4333/ebook/savecart',{params:form_data});
             },
             handleSubmit(){
-                axios.get('http://localhost:8088/ebook/submitorder',{params:{username:this.username}}).then(response=>{
+                axios.get('http://localhost:4333/ebook/submitorder',{params:{username:this.username}}).then(response=>{
                     this.message = response.data;
                     this.$alert("提交订单成功,等待处理，详情请至订单页查询！");
                     this.table = [];
